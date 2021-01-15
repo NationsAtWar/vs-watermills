@@ -1,0 +1,37 @@
+{
+	code: "waterwheel",
+	class: "blockwaterwheel",
+	entityClass: "bewaterwheel",
+	entityBehaviors: [{ name: "bebehaviorwaterwheel" }],
+	creativeinventory: { "general": ["waterwheel-north"], "decorative": ["waterwheel-north"] },
+	behaviors: [{name: "HorizontalOrientable"}],
+	blockmaterial: "wood",
+	variantgroups: [
+		{ code:"side", loadFromProperties: "abstract/horizontalorientation" }
+	],
+	shapebytype: {
+		"*-north": { base: "block/wood/mechanics/shapewaterwheel", rotateY: 90 },
+		"*-east": { base: "block/wood/mechanics/shapewaterwheel", rotateY: 0 },
+		"*-south": { base: "block/wood/mechanics/shapewaterwheel", rotateY: 270 },
+		"*-west": { base: "block/wood/mechanics/shapewaterwheel", rotateY: 180 },
+	},
+	texture: { base: "game:block/wood/planks/birch1" },
+	sidesolid: {
+		all: false
+	},
+	sideopaque: {
+		all: false
+	},
+	rainPermeable: true,
+	resistance: 6,
+	lightAbsorption: 0,
+	sounds: {
+		"place": "game:block/planks",
+		"walk": "game:walk/wood",
+		"hit": "game:block/planks",
+		"break": "game:block/planks"
+	},
+	guiTransform: {
+		scale: 0.5
+	}
+}

@@ -1,0 +1,12 @@
+{
+  "type": "code",
+  "modid": "watermills",
+  "name": "watermills",
+  "author": "Aculem",
+  "description": "Adds watermills to the game as an alternative energy source.",
+  "website": "https://github.com/NationsAtWar/vs-watermills",
+  "version": "1.0.0",
+  "dependency": {
+    "game": ""
+  }
+}

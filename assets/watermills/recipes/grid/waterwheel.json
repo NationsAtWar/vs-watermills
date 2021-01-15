@@ -1,0 +1,13 @@
+{
+	"ingredientPattern": "_H_,PCP,RPF",
+	"ingredients": {		
+		"H": { "type": "item", "code": "game:hammer-*", isTool: true },
+		"C": { "type": "item", "code": "game:chisel-*", isTool: true },
+		"F": { "type": "item", "code": "game:fat" },
+		"R": { "type": "item", "code": "game:resin"},
+		"P": { "type": "item", "code": "game:plank-*", name: "wood", quantity: 6 }
+	},
+	"width": 3,
+	"height": 3,
+	"output": { "type": "block", "code": "waterwheel-north", quantity: 1 }
+}
